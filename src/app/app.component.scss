@@ -1,7 +1,13 @@
 .container-fluid {
   height: calc(100vh - 56px);
+  background-color: rgb(58, 58, 58);
+  color: white;
 
   > .row {
     height: 100%;
   }
+}
+
+.col-sm-9 {
+  background-color: rgb(58, 58, 58);
 }
